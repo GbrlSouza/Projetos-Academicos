@@ -1,0 +1,226 @@
+/* wallpaper responsive */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-image:url('../.src/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.imagem{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
+
+/* responsive navigation bar */
+
+.nav {
+    float: inline-start;
+    height: 50px;
+    width: 100%;
+    background-color: #333333aa;
+    position: relative;
+}
+
+.nav > .nav-header {
+    display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+    display: none;
+}
+
+.nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.nav > .nav-links > ul li a{
+    display: block;
+    padding: 0 8px;
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav > .nav-links > ul{
+    padding: 0;
+    margin-top: 5px;
+    list-style: none;
+    position: relative;
+
+}
+
+.nav > .nav-links > ul li{
+    display: inline-block;
+    background-color: #456;
+}
+
+.nav > .nav-links > ul li:hover{
+    background-color: #987;
+    border-radius: 5px;
+}
+
+.nav > #nav-check {
+    display: none;
+}
+
+.nav .nav-links ul a.icon{
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+ .nav .nav-links ul a i{
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 7px;
+    margin-left: 5px;
+}
+
+@media (max-width:800px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: #333333dd;
+    }
+
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333333dd;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+
+    .nav > .nav-links > ul li a {
+      display: block;
+      width: 100%;
+    }
+
+    .nav > .nav-links > ul li{
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+        background-color: #333333dd;
+
+    }
+    
+    .nav > .nav-links > ul li a{
+          margin-left: 40%;
+    }
+    
+    .nav .nav-links ul a.icon{
+        margin-left: 33%;
+    }
+
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+}
+
+/* Responsive Articles */
+
+body > main {
+    transition: padding-left 0.3s ease-in;
+}
+
+body > main > header {
+    background: #333333dd;
+    height: 208px;
+    padding-top: 158px;
+    padding-left: 72px;
+    box-sizing: border-box;
+    transition: padding-left 0.3s ease-in;
+}
+
+body > main > header > h1 {
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+body > main > section {
+    display: block;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+body > main > section > .cartao {
+    background: #333333dd;
+    width: calc(50% - 16px);
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 208px;
+    border-radius: 8px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/*Responsive Footer*/
+
+#origem{
+    display: block;
+    padding: 0 8px;
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#footer{
+    background: #333333dd;
+    color: #fff;
+    text-align: center;
+}
