@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
-    background-image:url('../.src/wallpaper.jpg');
+    background-image:url('wallpaper.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
