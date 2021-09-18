@@ -98,7 +98,7 @@ body {
     margin-left: 5px;
 }
 
-@media (max-width:1050px) {
+@media (max-width: 1050px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
