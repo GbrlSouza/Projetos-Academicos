@@ -221,10 +221,14 @@ body > main > section > .slides {
     margin-right: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
-    height: 250px;
+    height: 200px;
     border-radius: 8px;
     display: inline-block;
     box-sizing: border-box;
+}
+
+body > main > section > ul {
+    list-style-type: none;
 }
 
 .img_logo {
