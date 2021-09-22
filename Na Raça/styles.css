@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -13,6 +14,47 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Sliders */
+
+.img_logo{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.slides-list{
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+
+	--total-items: 4;
+	width: calc(var(--total-items) * 100%);
+
+    position: relative;
+    left: 0%;
+
+    --selected-item: 0;
+    position: relative;
+    left: calc(var(--selected-item) * -100%);
+
+    transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.slide-show{
+    overflow: hidden;
+}
+
+.slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
+.slide-controller:nth-child(2):checked ~ .slide-show .slides-list{--selected-item: 1;}
+.slide-controller:nth-child(3):checked ~ .slide-show .slides-list{--selected-item: 2;}
+.slide-controller:nth-child(4):checked ~ .slide-show .slides-list{--selected-item: 3;}
+  
+/* IMG de cima */
 
 .imagem{
     width: 100%;
@@ -90,14 +132,14 @@ body {
     margin-right: 10px;
 }
 
- .nav .nav-links ul a i{
+.nav .nav-links ul a i{
     background-color: #fff;
     border-radius: 50px;
     padding: 7px;
     margin-left: 5px;
 }
 
-@media (max-width: 950px ) {
+@media (max-width: 1000px ) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -174,9 +216,9 @@ body > main {
 
 body > main > header {
     background: #333333dd;
-    height: 208px;
-    padding-top: 158px;
-    padding-left: 72px;
+    height: 150px;
+    padding-top: 100px;
+    padding-left: 70px;
     box-sizing: border-box;
     transition: padding-left 0.3s ease-in;
 }
@@ -202,7 +244,7 @@ body > main > section > .cartao {
     margin-right: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
-    height: 208px;
+    height: 175px;
     border-radius: 8px;
     display: inline-block;
     box-sizing: border-box;
