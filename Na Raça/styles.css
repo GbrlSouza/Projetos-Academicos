@@ -213,19 +213,24 @@ body > main > section > .cartao {
 
 /* Sliders */
 
-.slides {
-    height: 250PX;
-    width: auto;
-    background-color: #333333aa;
-    position: relative;
+body > main > section > .slides {
     margin: auto;
+    background: #333333dd;
+    width: calc(100% - 16px);
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 250px;
+    border-radius: 8px;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 .img_logo {
     display: block;
     margin: 0 auto;
-    max-width: 300px;
-    decoration: none;
+    max-width: 325px;
 }
 
 /*Responsive Footer*/
