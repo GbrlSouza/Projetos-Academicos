@@ -5,11 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="text/javascript" src="slider.js" />
-        <link href="styles.css" rel="stylesheet" />
-        <link href="logo.png" rel="shortcut icon" />
+        <link src="./slider.js" rel="text/javascript" />
+
+        <link href="./styles.css" rel="stylesheet" />
+        <link href="./logo.png" rel="shortcut icon" />
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
         <title>Evolution Store</title>
     </head>
@@ -19,7 +20,7 @@
             <input type="checkbox" id="nav-check">
             <div class="nav-header">
               <div class="nav-title">
-                <img src="logo.png" id="logo" class="imagem" />
+                <img src="./logo.png" id="logo" class="imagem" />
               </div>
             </div>
             <div class="nav-btn">
@@ -38,37 +39,30 @@
                     <li><a href="#">Carrinho</a></li>
                     <li><a href="#">Marcas</a></li>
                     <a class="icon">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true" alt="Perfil no Instagram"></i>
+                        <i class="fa fa-facebook-square" aria-hidden="true" alt="Perfil no Facebook"></i>
+                        <i class="fa fa-whatsapp" aria-hidden="true" alt="Chat Whatsapp"></i>
+                        <i class="fa fa-comment" aria-hidden="true" alt="ChatBot"></i>
                     </a>
                 </ul>
             </div>
         </div>
           
         <main>
-            <input type="radio" class="slide-controller" name="slide" checked />
-            <input type="radio" class="slide-controller" name="slide" />
-            <input type="radio" class="slide-controller" name="slide" />
-            <input type="radio" class="slide-controller" name="slide" />
-
-            <div class="slide-show" >
-                <ul class="slides-list" >
-                    <li class="slide" >
-                        <img src="./Tommy_Hilfiger_Logo.png" class="img_logo"/>
-                    </li>
-                    <li class="slide" >
-                        <img src="./champion-logo.png" class="img_logo"/>
-                    </li>
-                    <li class="slide" >
-                        <img src="./New_Era_logo.png" class="img_logo"/>
-                    </li>
-                    <li class="slide" >
-                        <img src="./nike-logo.png" class="img_logo"/>
-                    </li>
-                </ul>
-            </div>            
+            <ul class="slides" >
+                <li class="slide" >
+                    <img src="./Tommy_Hilfiger_Logo.png" class="img_logo"/>
+                </li>
+                <li class="slide" >
+                    <img src="./champion-logo.png" class="img_logo"/>
+                </li>
+                <li class="slide" >
+                    <img src="./New_Era_logo.png" class="img_logo"/>
+                </li>
+                <li class="slide" >
+                    <img src="./nike-logo.png" class="img_logo"/>
+                </li>
+            </ul>"
 
             <header>
                 <hr />
@@ -116,5 +110,6 @@
             <p><a href="https://evolutionjaguariuna.com.br/" target="_blank" id="origem">Link - EVOLUTION STORE JAGUARIUNA</a></p>
             <hr />
         </footer>
+        <script type="text/javascript" src="./slider.js"></script>
     </body>
 </html>
