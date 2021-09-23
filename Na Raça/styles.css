@@ -10,15 +10,14 @@
     align-items: flex-start;
 }
 
-/*p {
-    text-align: justify;
-}*/
+body{
+    background-color: #000000ff;
+}
 
-body {
+.body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     background-image: url('wallpaper.jpg');
-    background-color: #000000ff;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -37,6 +36,7 @@ body {
 /* responsive navigation bar */
 
 .nav {
+    font-family: 'Roboto', sans-serif;
     float: inline-start;
     height: 50px;
     width: 100%;
@@ -181,11 +181,13 @@ body {
 
 /* Responsive Articles */
 
-body > main {
+body > .body > main { 
+    background-color: #000;  
+    font-family: 'Roboto', sans-serif;
     transition: padding-left 0.3s ease-in;
 }
 
-body > main > header {
+body > .body > main > header {
     background: #333333dd;
     height: 150px;
     padding-top: 100px;
@@ -194,7 +196,7 @@ body > main > header {
     transition: padding-left 0.3s ease-in;
 }
 
-body > main > header > h1 {
+body > .body > main > header > h1 {
     color: #FFF;
     margin: 0;
     padding: 0;
@@ -202,13 +204,13 @@ body > main > header > h1 {
     font-weight: normal;
 }
 
-body > main > section {
+body > .body > main > section {
     display: block;
     padding: 8px;
     box-sizing: border-box;
 }
 
-body > main > section > .cartao {
+body > .body > main > section > .cartao {
     background: #333333dd;
     width: calc(50% - 16px);
     margin-left: 8px;
@@ -223,7 +225,7 @@ body > main > section > .cartao {
 
 /* Sliders */
 
-body > main > section > .slides {
+.body > .main > .section > .slides {
     margin: auto;
     background: #ffffff00;
     width: calc(100% - 16px);
@@ -237,8 +239,28 @@ body > main > section > .slides {
     box-sizing: border-box;
 }
 
-body > main > section > ul {
+.body > .main > .section > ul {
     list-style-type: none;
+}
+
+.body > .main > .header > h1 {
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.body > .main > .header {
+    height: 150px;
+    padding-top: 100px;
+    padding-left: 70px;
+    box-sizing: border-box;
+    transition: padding-left 0.3s ease-in;
+}
+
+.body > .main {
+    background: #33333300;
 }
 
 .img_logo {
@@ -259,7 +281,7 @@ body > main > section > ul {
 }
 
 #footer {
-    background: #333333dd;
+    background: #33333300;
     color: #fff;
     text-align: center;
 }
