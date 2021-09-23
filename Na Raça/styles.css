@@ -5,10 +5,20 @@
     margin: 0;
 }
 
+.alinha {
+    position: relative;
+    align-items: flex-start;
+}
+
+/*p {
+    text-align: justify;
+}*/
+
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     background-image: url('wallpaper.jpg');
+    background-color: #000000ff;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -19,7 +29,7 @@ body {
 
 .imagem{
     width: 100%;
-    max-width: 100px;
+    max-width: 400px;
     height: auto;
     display: block;
 }
@@ -30,7 +40,7 @@ body {
     float: inline-start;
     height: 50px;
     width: 100%;
-    background-color: #333333aa;
+    background-color: #33333300;
     position: relative;
 }
 
@@ -57,7 +67,7 @@ body {
     font-size: 18px;
 }
 
-.nav > .nav-links > ul li a{
+.nav > .nav-links > ul li a {
     display: block;
     padding: 0 8px;
     color: #fff;
@@ -76,11 +86,11 @@ body {
 
 .nav > .nav-links > ul li{
     display: inline-block;
-    background-color: #456;
+    background-color: #ffffff00;
 }
 
 .nav > .nav-links > ul li:hover{
-    background-color: #987;
+    background-color: #191919;
     border-radius: 5px;
 }
 
