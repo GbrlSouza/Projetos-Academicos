@@ -210,15 +210,15 @@ body > .body > main > section {
     box-sizing: border-box;
 }
 
-body > .body > main > section > .cartao {
+body > .body > main > section > center > .cartao {
     background: #333333dd;
-    width: calc(50% - 16px);
+    width: calc(30% - 20px);
     margin-left: 8px;
     margin-right: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
-    height: 175px;
-    border-radius: 8px;
+    height: 200px;
+    border-radius: 10px;
     display: inline-block;
     box-sizing: border-box;
 }
