@@ -1,6 +1,7 @@
 /* wallpaper responsive */
 
 * {
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
 }
@@ -212,7 +213,7 @@ body > .body > main > section {
 }
 
 body > .body > main > section > center > .cartao {
-    background: #333333dd;
+    background: #33333300;
     width: calc(30% - 20px);
     margin-left: 8px;
     margin-right: 8px;
@@ -222,6 +223,24 @@ body > .body > main > section > center > .cartao {
     border-radius: 10px;
     display: inline-block;
     box-sizing: border-box;
+}
+
+body > .body > main > section > center > .cartao > .img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+}
+
+body > .body > main > section > center > .cartao > p {
+    background: #333333aa;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
 }
 
 /* Sliders */
