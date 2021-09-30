@@ -42,6 +42,7 @@ body{
     width: 100%;
     background-color: #33333300;
     position: relative;
+    
 }
 
 .nav > .nav-header {
@@ -182,7 +183,7 @@ body{
 /* Responsive Articles */
 
 body > .body > main { 
-    background-color: #000;  
+    background-color: #ffffffd4;  
     font-family: 'Roboto', sans-serif;
     transition: padding-left 0.3s ease-in;
 }
