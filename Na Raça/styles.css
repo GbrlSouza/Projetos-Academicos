@@ -181,68 +181,6 @@ body{
     }
 }
 
-/* Responsive Articles */
-
-body > .body > main { 
-    background-color: #ffffffd4;  
-    font-family: 'Roboto', sans-serif;
-    transition: padding-left 0.3s ease-in;
-}
-
-body > .body > main > header {
-    background: #333333dd;
-    height: 150px;
-    padding-top: 100px;
-    padding-left: 70px;
-    box-sizing: border-box;
-    transition: padding-left 0.3s ease-in;
-}
-
-body > .body > main > header > h1 {
-    color: #FFF;
-    margin: 0;
-    padding: 0;
-    font-size: 24px;
-    font-weight: normal;
-}
-
-body > .body > main > section {
-    display: block;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-body > .body > main > section > center > .cartao {
-    background: #33333300;
-    width: calc(30% - 20px);
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    height: 200px;
-    border-radius: 10px;
-    display: inline-block;
-    box-sizing: border-box;
-}
-
-body > .body > main > section > center > .cartao > .img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    display: block;
-}
-
-body > .body > main > section > center > .cartao > p {
-    background: #333333;
-    color: #fff;
-    font-size: 24px;
-    margin-top: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    border-radius: 10px;
-}
-
 /* Sliders */
 
 .body > .main > .section > .slides {
@@ -304,4 +242,128 @@ body > .body > main > section > center > .cartao > p {
     background: #33333300;
     color: #fff;
     text-align: center;
+}
+
+/* Responsive Articles */
+
+body > .body > main { 
+    background-color: #ffffffd4;  
+    font-family: 'Roboto', sans-serif;
+    transition: padding-left 0.3s ease-in;
+}
+
+body > .body > main > header {
+    background: #333333dd;
+    height: 150px;
+    padding-top: 100px;
+    padding-left: 70px;
+    box-sizing: border-box;
+    transition: padding-left 0.3s ease-in;
+}
+
+body > .body > main > header > h1 {
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+body > .body > main > .section {
+    display: block;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+body > .body > main > .section > center > .cartao {
+    background: #33333300;
+    width: calc(30% - 20px);
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+body > .body > main > .section > center > .cartao > .img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+}
+
+body > .body > main > .section > center > .cartao > p {
+    background: #333333;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px ) {
+    body > .body > main > .section {
+        display: block;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    
+    body > .body > main > .section > center > .cartao {
+        background: #33333300;
+        width: calc(100% - 300px);
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        height: 200px;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    body > .body > main > .section > center > .cartao > .img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        display: block;
+    }
+    
+    body > .body > main > .section > center > .cartao > p {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 600px ) {
+    body > .body > main > .section {
+        display: block;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    
+    body > .body > main > .section > center > .cartao {
+        background: #33333300;
+        width: calc(100% - 250px);
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        height: 200px;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    body > .body > main > .section > center > .cartao > .img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        display: block;
+    }
+    
+    body > .body > main > .section > center > .cartao > p {
+        visibility: hidden;
+    }
 }
