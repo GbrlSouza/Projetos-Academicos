@@ -1,0 +1,18 @@
+C:\Users\lab2d\Desktop\ProdCalc v2.0\ProdCalc v2.0\bin\Debug\ProdCalc v2.0.exe
+C:\Users\lab2d\Desktop\ProdCalc v2.0\ProdCalc v2.0\bin\Debug\ProdCalc v2.0.pdb
+C:\Users\lab2d\Desktop\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\lab2d\Desktop\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\lab2d\Desktop\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\lab2d\Desktop\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\ProdCalc v2.0.csproj.GenerateResource.Cache
+C:\Users\lab2d\Desktop\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\ProdCalc v2.0.exe
+C:\Users\lab2d\Desktop\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\ProdCalc v2.0.pdb
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\ProdCalc v2.0.exe
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\ProdCalc v2.0.pdb
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\ProdCalc v2.0.csproj.GenerateResource.Cache
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\bin\Debug\ProdCalc v2.0.exe
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\bin\Debug\ProdCalc v2.0.pdb
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+F:\drive\ProdCalc v2.0\ProdCalc v2.0\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
