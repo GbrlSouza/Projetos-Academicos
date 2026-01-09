@@ -9,6 +9,7 @@ export default function Layout() {
                 tabBarIcon: ({ color, size }) => <MaterialIcons name="home" color={color} size={size} />
                 
             }} />
+            
             <Tabs.Screen name="sign-up" options={{ 
                 tabBarLabel: 'Sign Up',
                 tabBarIcon: ({ color, size }) => <MaterialIcons name="person" color={color} size={size} />
