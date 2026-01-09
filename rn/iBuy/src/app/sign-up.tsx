@@ -4,9 +4,7 @@ import { Alert, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 export default function SignUp() {
 
     function back() {
-        if (!router.canGoBack()) { 
-            return Alert.alert('No previous screen', 'There is no screen to go back to.')
-        }
+        if (!router.canGoBack()) return Alert.alert('No previous screen', 'There is no screen to go back to.')
         
         router.back()
     }
