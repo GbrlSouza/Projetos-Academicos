@@ -1,8 +1,9 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { router } from 'expo-router'
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
 export default function Index() {
     function signUp() {
-        // Navigation logic to go to Sign Up screen
+        router.push('/sign-up')
     }
 
     return(
