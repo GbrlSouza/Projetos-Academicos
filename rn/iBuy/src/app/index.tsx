@@ -1,4 +1,4 @@
-import { Link, router } from 'expo-router'
+import { router } from 'expo-router'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
 export default function Index() {
@@ -11,10 +11,6 @@ export default function Index() {
             <TouchableOpacity activeOpacity={0.7} style={styles.button} onPress={signUp}>
                 <Text style={styles.text}>Go to Sign Up</Text>
             </TouchableOpacity>
-
-            <Link href={{ pathname: '/home', params: { id: 123 } }} style={styles.button}>
-                <Text style={styles.text}>Go to Home</Text>
-            </Link>
         </View>
     )
 }
