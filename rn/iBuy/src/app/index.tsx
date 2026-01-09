@@ -6,10 +6,18 @@ export default function Index() {
         router.navigate('/sign-up')
     }
 
+    function signIn() {
+        router.navigate('/(drawer)/configs')
+    }
+
     return(
         <View style={styles.container}>
+            <TouchableOpacity activeOpacity={0.7} style={styles.button} onPress={signIn}>
+                <Text style={styles.text}>Entrar</Text>
+            </TouchableOpacity>
+
             <TouchableOpacity activeOpacity={0.7} style={styles.button} onPress={signUp}>
-                <Text style={styles.text}>Go to Sign Up</Text>
+                <Text style={styles.text}>Criar Conta</Text>
             </TouchableOpacity>
         </View>
     )
