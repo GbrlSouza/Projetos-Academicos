@@ -3,7 +3,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
 export default function Index() {
     function signUp() {
-        router.push('/sign-up')
+        router.navigate('/sign-up')
     }
 
     return(

@@ -1,8 +1,12 @@
 import { router } from 'expo-router'
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { Alert, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
 export default function SignUp() {
     function back() {
+        if (!router.canGoBack()) { 
+            return Alert.alert('No previous screen', 'There is no screen to go back to.')
+        }
+        
         router.back()
     }
 
@@ -31,7 +35,7 @@ const styles = StyleSheet.create({
     back: {
         marginTop: 20,
         padding: 10,
-        backgroundColor: '#007AFF',
+        backgroundColor: '#333',
         borderRadius: 5,
     }
 })
