@@ -1,19 +1,24 @@
-import { MaterialIcons } from '@expo/vector-icons'
-import { Tabs } from 'expo-router'
+import MaterialIcon from '@expo/vector-icons/MaterialIcons'
+import { Drawer } from 'expo-router/drawer'
+import { GestureHandlerRootView } from 'react-native-gesture-handler'
 
 export default function Layout() {
-    return (
-        <Tabs screenOptions={{ headerShown: false, tabBarLabelPosition: 'beside-icon' }}>
-            <Tabs.Screen name="index" options={{ 
-                tabBarLabel: 'Sign In',
-                tabBarIcon: ({ color, size }) => <MaterialIcons name="home" color={color} size={size} />
-                
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <Drawer>
+        <Drawer.Screen
+            name="index"
+            options={{
+                drawerLabel: 'Sign In',
+                drawerIcon: ({ color, size }) => <MaterialIcon name="home" color={color} size={size} />
             }} />
-            
-            <Tabs.Screen name="sign-up" options={{ 
-                tabBarLabel: 'Sign Up',
-                tabBarIcon: ({ color, size }) => <MaterialIcons name="person" color={color} size={size} />
+        <Drawer.Screen
+            name="sign-up"
+            options={{
+                drawerLabel: 'Sign Up',
+                drawerIcon: ({ color, size }) => <MaterialIcon name="login" color={color} size={size} />
             }} />
-        </Tabs>
-    )
-}
+      </Drawer>
+    </GestureHandlerRootView>
+  )
+} 
