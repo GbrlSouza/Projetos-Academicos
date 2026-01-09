@@ -1,22 +1,15 @@
-import { Link, router } from 'expo-router'
+import { router, useLocalSearchParams } from 'expo-router'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
-export default function Index() {
-    function signUp() {
-        router.navigate('/sign-up')
-    }
+export default function Product() {
+    const { id } = useLocalSearchParams()
 
     return(
         <View style={styles.container}>
-            <TouchableOpacity activeOpacity={0.7} style={styles.button} onPress={signUp}>
-                <Text style={styles.text}>Go to Sign Up</Text>
+            <Text style={styles.text}>ID do produto: {id}</Text>
+            <TouchableOpacity style={styles.button} activeOpacity={0.7}>
+                <Text onPress={() => router.back()}>Voltar</Text>
             </TouchableOpacity>
-
-            <hr />
-
-            <Link href="/product/12345" style={styles.button} asChild>
-                <Text style={styles.text}>Send Param</Text>
-            </Link>
         </View>
     )
 }
